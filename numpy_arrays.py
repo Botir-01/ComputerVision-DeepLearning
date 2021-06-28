@@ -1,23 +1,23 @@
 import numpy as np
 
-mylist = [1,2,3]
+mylist = [1, 2, 3]
 
 # Turning a default Python array into numpy array
 myarray = np.array(mylist)
 
 # numpy version of a range
-np.arange(0,10,2)
+np.arange(0, 10, 2)
 
 # creating two dimensional array with float(0)
-np.zeros((10,5))
+np.zeros((10, 5))
 
 # creating two dimensional array with float(1)
-np.ones(shape=(2,5))
+np.ones(shape=(2, 5))
 
 # creating an array with 10 random numbers
 np.random.seed(101)
-arr = np.random.randint(0,100,10)
-arr2 = np.random.randint(0,100,10)
+arr = np.random.randint(0, 100, 10)
+arr2 = np.random.randint(0, 100, 10)
 print(arr)
 print(arr2)
 
@@ -50,7 +50,7 @@ newArrRow = mat[:, 1]
 newArrCol = mat[1, :]
 
 # grabbing a chunk of data
-chunk = mat[0:3, 0:3] # = 0 reassignment
+chunk = mat[0:3, 0:3]  # = 0 reassignment
 
 # copying a metric
 newMat = mat.copy()
